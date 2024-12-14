@@ -4,7 +4,7 @@ const BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://vms-server-produ
 
 
 console.log('Environment:', process.env);
-console.log('REACT_APP_API_BASE_URL:', process.env.REACT_APP_API_BASE_URL);
+console.log('REACT_APP_API_BASE_URL:', BASE_URL);
 
 
 const api = axios.create({
